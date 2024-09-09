@@ -31,8 +31,8 @@ def main():
         for i,linha in enumerate(leitor, start=1):
             email = linha['Endereço de e-mail']
             usuario = email.split('@')[0]
-            arquivo_saida = codigos / f'm{i:02d}-{slugify(usuario)}.py'
-            # arquivo_saida = codigos / f'{slugify(usuario.replace(".", ""))}.py'
+            # arquivo_saida = codigos / f'm{i:02d}-{slugify(usuario)}.py'
+            arquivo_saida = codigos / f'{slugify(usuario.replace(".", ""))}.py'
             with arquivo_saida.open(mode='w', encoding='utf-8') as saida:
                 saida.write(f'__AUTOR__ = "{linha["Nome"]}"\n')
                 saida.write(f'__MATRICULA__ = "{linha["Matrícula"]}"\n')

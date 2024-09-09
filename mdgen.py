@@ -1,13 +1,19 @@
+#!/usr/bin/env python3
+
 """
 Gerador de arquivos Markdown (Extensão ".md") para estudantes.
 """
 
-# TODO: Passar a lista de códigos como argumento para o script.
-
+from argparse import ArgumentParser
 from csv import DictReader
 from slugify import slugify
 
-leitor = DictReader(open('../lista-codigos.txt'))
+parser = ArgumentParser('Gerador de arquivos Markdown para estudantes')
+parser.add_argument('arquivo', help='Arquivo no formato <nome>,<codigo>')
+args = parser.parse_args()
+
+leitor = DictReader(open(args.arquivo))
+
 
 for linha in leitor:
     slug_nome = slugify(linha['nome'])
