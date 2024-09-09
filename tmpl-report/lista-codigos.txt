@@ -1,0 +1,38 @@
+nome,codigo
+Alicia Sophia Oliveira Lima,src/oalicia.py
+Ana Flávia Lima de Sousa,src/flaviasousa.py
+Anny Ellen Nogueira de Moura,src/ellenmoura.py
+arthur david gabriel da costa silva,src/arthurdavid.py
+Augusto César de Oliveira Souza,src/cesaraugusto1.py
+Bianca Pereira,src/pereirabianca.py
+Caio de Souza Damasceno,src/caiodamasceno.py
+Carlos Alexandre de Souza Azevedo,src/carlosalexandre1.py
+Carlos Eduardo dos Santos Lima,src/limaeduardo2.py
+Emanuel Vitor Lucena dos Santos,src/lucenavitor.py
+Geyza Gonçalves Ferreira.,src/geyzag.py
+Grazielly Maia Morais Silva ,src/moraisgrazielly.py
+Gutembergue silva d e souza,src/gutemberguesouza.py
+Hyago Kadson Diniz da Silva,src/hyagodiniz.py
+Iven Figueiredo Andrade,src/ivenf.py
+Izaias Evangelista Fontes,src/izaiase.py
+Jayane Ariele Costa de Medeiros.,src/jayaneariele.py
+Karina dos Santos Silva,src/karinasantos.py
+Lucas de Souza Luz,src/lucasluz.py
+Marcos Vinicius Firmino Lopes,src/marcosfirmino.py
+@Maria0819!,src/emilisilva.py
+Maria Clara Moura França,src/mourafranca.py
+Maria Eloiza de Lima da Silva,src/seloiza.py
+Maria Lais Florencio de Araujo,src/laisflorencio.py
+Mayalle Moreira da Silva,src/mayallemoreira.py
+Miguel Cavalcante,src/miguelcavalcante.py
+Miguel Fernandes da Cruz,src/cmiguel.py
+Nivea Avelino Ferreira da Silva,src/ferreiraavelino.py
+Pedro Aires Fischer Maciel,src/airespedro.py
+Raedson Lima das Chagas,src/raedsonlima.py
+Rafael do Nascimento Silva,src/rafaelnascimento1.py
+Raiely Ferreira,src/raielyferreira.py
+Rian Matheus Tavares Rodrigues Da silva,src/riant.py
+Sara Caroliny dos Santos Barreto,src/carolinysantos.py
+Sara Luiza Tomaz de Freitas,src/saratomaz.py
+Silas de Freitas Cavalcante Moreira,src/msilas.py
+Thiago Freitas Costa,src/freitascosta.py
