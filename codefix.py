@@ -36,16 +36,16 @@ def main():
     pontuacao = 0
     for nome, tipo in tipo_esperado_para.items():
         if not hasattr(mod_av03, nome):
-            print(f'Variável "{nome}" não encontrada no módulo "{nome_modulo}"')
+            print(f'Variável "{nome}" não encontrada no módulo "{nome_modulo}"\n')
             continue
         valor = getattr(mod_av03, nome)
         if not isinstance(valor, eval(tipo)):
-            print(f'Variável "{nome}" deveria ser do tipo "{tipo}"')
+            print(f'Variável "{nome}" deveria ser do tipo "{tipo}"\n')
             continue
-        print(f'Variável "{nome}" está correta')
+        print(f'Variável "{nome}" está correta\n')
         pontuacao += 5
         
-    print(f'Pontuação: {pontuacao}')
+    print(f'Pontuação: {pontuacao}\n')
     
 if __name__ == '__main__':
     main()
